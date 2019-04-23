@@ -1,0 +1,11 @@
+
+public class Elevador {
+	private int qtdPessoas;
+	private int andares;
+	private int capacidade;
+	private int andarAtual;
+	
+	public void Inicializa(int capacidade, int andares) {
+		
+	}
+}

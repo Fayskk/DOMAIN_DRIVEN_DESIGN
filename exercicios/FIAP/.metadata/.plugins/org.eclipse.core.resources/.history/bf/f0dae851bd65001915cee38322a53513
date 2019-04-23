@@ -1,0 +1,38 @@
+
+public class Elevador {
+	private int qtdPessoas;
+	private int andares;
+	private int capacidade;
+	private int andarAtual;
+	
+	public void inicializa(int capacidade, int andares) {
+		this.capacidade = capacidade;
+		this.andares = andares;
+	}
+	
+	public void entra() {
+		if(qtdPessoas < capacidade) {
+			qtdPessoas++;
+		} else {
+			System.out.println("Felevador cheio!");
+		}
+		
+	}
+	public void sai() {
+		if(qtdPessoas > 0) {
+			qtdPessoas--;
+		}else {
+			System.out.println("Elevador está vazio!");
+		}
+	}
+	public void sobe() {
+		if(andarAtual > andares) {
+			System.out.println("Andar invalido!");
+		} else {
+			
+		}
+	}
+	public void desce() {
+		
+	}
+}
