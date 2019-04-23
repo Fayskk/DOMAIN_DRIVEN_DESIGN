@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Quadrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double numero;
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Digite um numero para saber o quadrado : ");
+		numero = scn.nextDouble();
+		numero = (numero * numero);
+		System.out.println("O Quadrado do numero digitado é " + numero );
+	}
+
+}
+2.

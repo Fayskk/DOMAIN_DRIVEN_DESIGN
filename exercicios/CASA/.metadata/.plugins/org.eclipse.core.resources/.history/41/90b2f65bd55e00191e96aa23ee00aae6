@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Calculos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double numero1;
+		double numero2;
+		double numero3;
+		double numero4;
+		double multiplica;
+		double soma;
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Digite 4 (Quatro numeros)");
+		numero1 = scn.nextDouble();
+		numero2 = scn.nextDouble();
+		numero3 = scn.nextDouble();
+		numero4 = scn.nextDouble();
+	}
+
+}
