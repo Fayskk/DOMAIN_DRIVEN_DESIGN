@@ -1,0 +1,16 @@
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int valor;
+		int negativo;
+		int soma;
+		//for (int num = 1; num <= 5; num++) {
+			
+		//}
+		System.out.println(0.010+0.020);
+
+	}
+
+}

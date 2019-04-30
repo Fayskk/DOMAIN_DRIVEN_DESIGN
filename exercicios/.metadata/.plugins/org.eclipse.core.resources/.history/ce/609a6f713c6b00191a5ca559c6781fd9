@@ -1,0 +1,9 @@
+package br.com.fiap.tds.ltp.jogo.personagem;
+
+public class Personagem {
+	private int forca;
+	private int inteligencia;
+	private int destreza;
+	private int level;
+	private String nome;
+}

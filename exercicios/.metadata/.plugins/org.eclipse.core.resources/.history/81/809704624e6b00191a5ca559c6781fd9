@@ -1,0 +1,13 @@
+
+public class Testes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Escala escala = new Escala();
+		escala.setLocal("Alaska");
+		escala.setTempo("10h");
+		escala.setTranfer(true);
+		
+	}
+
+}

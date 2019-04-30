@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn = new Scanner(System.in);
+		int valor = 0;
+		
+		for (int num = 1; num <= 10000000000000000; num++) {
+			valor = (5 * num );
+			System.out.println("5 X "+ num + " = " + valor);
+		}
+
+	}
+
+}

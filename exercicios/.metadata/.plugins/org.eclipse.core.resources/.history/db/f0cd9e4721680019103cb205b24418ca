@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scn = new Scanner(System.in);
+		
+		//Exercício com do while
+		int num;
+		int soma;
+		soma = 0;
+		num = 1;
+		do {
+			System.out.println("Digite um numero: ");
+			soma = soma + scn.nextInt();
+			num++;
+		} while (num <= 30);
+		
+		System.out.println("Soma de todos " + soma);		
+		//fim do exeício com do while
+		
+		//Exercício com for
+		//int soma = 0;
+		//for(int num=1;num<=3;num++) {
+		//	System.out.println("Digite um numero: ");
+		//	soma = soma + scn.nextInt();
+		//}
+		//System.out.println("Soma de todos " + soma);
+		//Fim do exercício com for
+		
+		//Exercício com While
+		//int num;
+		//int soma;
+		//soma = 0;
+		//num = 1;
+		//while (num <= 30 ) {
+		//	System.out.println("Digite um numero: ");
+		//	soma = soma + scn.nextInt();
+		//	num++;
+		//}
+		//System.out.println("Soma de todos " + soma);
+		//Fim do exercício com While
+	}
+	
+}

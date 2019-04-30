@@ -1,0 +1,18 @@
+package br.com.fiap.beans;
+
+public class Tecnologo extends Formacao {
+	private boolean planoExtendido;
+
+	public Tecnologo(String descncao, int periodo, double mensalidade, int duracao, boolean planoExtendido) {
+		super(descncao, periodo, mensalidade, duracao);
+		this.planoExtendido = planoExtendido;
+	}
+
+	public boolean isPlanoExtendido() {
+		return planoExtendido;
+	}
+
+	public void setPlanoExtendido(boolean planoExtendido) {
+		this.planoExtendido = planoExtendido;
+	}
+}

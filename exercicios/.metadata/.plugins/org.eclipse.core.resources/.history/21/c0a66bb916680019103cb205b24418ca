@@ -1,0 +1,15 @@
+
+public class Mais {
+
+	public static void main(String[] args) {
+		int x = 0, y = 0;
+		x=8;
+		y=18;
+		if(x==8 & ++y==19)
+		System.out.println("Primeiro");
+		else
+		System.out.println("Segundo");
+		
+		}
+
+	}

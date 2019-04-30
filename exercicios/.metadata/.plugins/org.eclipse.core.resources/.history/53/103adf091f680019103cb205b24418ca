@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn = new Scanner(System.in);
+		int num;
+		int soma;
+		soma = 0;
+		num = 0;
+		while (num <= 3 ) {
+			System.out.println("Digite um numero: ");
+			soma = soma + scn.nextInt();
+			num++;
+		}
+		System.out.println("Soma de todos " + soma);
+
+	}
+
+}

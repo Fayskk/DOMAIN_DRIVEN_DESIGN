@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class Formacao {
+	private String descncao;
+	private int periodo;
+	private double mensalidade;
+	private int duracao;
+	
+}

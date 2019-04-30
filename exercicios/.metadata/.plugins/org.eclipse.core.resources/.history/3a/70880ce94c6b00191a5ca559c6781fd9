@@ -1,0 +1,6 @@
+
+public class Passagem extends Voo {
+	private String localizador, assento;
+	private double valor;
+
+}

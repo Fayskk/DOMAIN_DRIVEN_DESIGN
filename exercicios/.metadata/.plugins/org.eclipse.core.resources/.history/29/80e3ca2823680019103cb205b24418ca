@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn = new Scanner (System.in);
+		int soma = 0;
+		int par = 0;
+		//for(int num=1;num<=3;num++) {
+			System.out.println("Digite um numero: ");
+			soma = scn.nextInt();
+			par = soma % 2;
+			//soma = soma + scn.nextInt();
+		//}
+		System.out.println("Soma de todos os pares " + par);
+	}
+
+}
