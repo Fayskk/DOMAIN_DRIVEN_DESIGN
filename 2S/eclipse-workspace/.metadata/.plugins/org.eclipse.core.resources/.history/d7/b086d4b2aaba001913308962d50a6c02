@@ -1,0 +1,15 @@
+package br.com.fiap.teste;
+
+import java.sql.DriverManager;
+
+public class JDBC_1 {
+
+	public static void main(String[] args) {
+		try {
+			DriverManager.getConnection("");
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

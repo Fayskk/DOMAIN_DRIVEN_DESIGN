@@ -1,0 +1,16 @@
+package br.com.fiap.teste;
+
+import java.sql.DriverManager;
+
+public class JDBC_1 {
+
+	public static void main(String[] args) {
+		try {
+			DriverManager.getConnection("jdbc:oracle:thin:oracle.fiap.com.br:1521:ORCL","rm82320","060691");
+			System.out.println("FOI CARALEO!!!");
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}
