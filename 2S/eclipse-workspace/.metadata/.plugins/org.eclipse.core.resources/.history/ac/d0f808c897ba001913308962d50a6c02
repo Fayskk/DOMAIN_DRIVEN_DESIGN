@@ -1,0 +1,19 @@
+package br.com.fiap.teste;
+
+import javax.swing.JOptionPane;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		try {
+			int x = Integer.parseInt(JOptionPane.showInputDialog("Numero: "));
+			System.out.println(x);
+			
+			String a = "";
+			System.out.println(a.length());
+		}catch(Exception e) {
+			System.out.println("Ocorreu uma exceção!!!");
+		}
+	}
+
+}

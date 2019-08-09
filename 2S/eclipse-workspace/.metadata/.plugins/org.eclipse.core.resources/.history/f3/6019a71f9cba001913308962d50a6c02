@@ -1,0 +1,15 @@
+package br.com.fiap.excecao;
+
+public class Excecao extends Exception {
+	
+	public Excecao(Exception e) {
+		if (e.getClass().toString().equals("class java.lang.NullPoiterException")) {
+			System.out.println("Objeto nulo");
+		}else if (e.getClass().toString().equals("class java.lang.NumberFormatException")) {
+			System.out.println("Numero inválido");
+		}else {
+			System.out.println("Deu ruim !!!");
+		}
+	}
+
+}
