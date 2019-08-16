@@ -1,0 +1,19 @@
+package br.com.projeto.principal;
+
+import br.com.projeto.beans.Usuario;
+import br.com.projeto.dao.UsuarioDAO;
+
+public class TesteConsultarUsuario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Usuario u = new UsuarioDAO().getUser(1);
+			System.out.println(u.getNome());
+			System.out.println(u.getSenha());
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

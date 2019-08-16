@@ -1,0 +1,10 @@
+package br.com.projeto.principal;
+
+public class TesteConsultarUsuario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

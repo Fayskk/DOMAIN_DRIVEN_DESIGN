@@ -1,0 +1,5 @@
+package br.com.descancojdbc.conexao;
+
+public class Conexao {
+
+}

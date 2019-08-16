@@ -1,0 +1,45 @@
+package br.com.descansojdbc.beans;
+
+public class Produto {
+	private int cd;
+	private String ds;
+	private double vl;
+	private int qt;	
+	
+	public Produto() {
+	}
+
+	public Produto(int cd, String ds, double vl, int qt) {
+		this.cd = cd;
+		this.ds = ds;
+		this.vl = vl;
+		this.qt = qt;
+	}	
+	
+	public int getCd() {
+		return cd;
+	}
+	public void setCd(int cd) {
+		this.cd = cd;
+	}
+	public String getDs() {
+		return ds;
+	}
+	public void setDs(String ds) {
+		this.ds = ds;
+	}
+	public double getVl() {
+		return vl;
+	}
+	public void setVl(double vl) {
+		this.vl = vl;
+	}
+	public int getQt() {
+		return qt;
+	}
+	public void setQt(int qt) {
+		this.qt = qt;
+	}
+	
+	
+}

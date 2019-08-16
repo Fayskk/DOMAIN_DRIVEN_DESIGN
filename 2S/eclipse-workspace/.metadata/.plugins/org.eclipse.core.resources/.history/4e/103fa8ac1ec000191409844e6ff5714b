@@ -1,0 +1,24 @@
+package br.com.projeto.principal;
+
+import java.sql.Connection;
+
+import br.com.projeto.conexao.Conexao;
+
+public class TesteConexao {
+
+	public static void main(String[] args) {
+		try {
+			Connection conectar = new Conexao().queroConectar();
+			System.out.println("Conectou!");
+			
+			
+			
+			//Importante fechar conexão
+			conectar.close();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package br.com.fiap.dao;
+
+import java.sql.Connection;
+
+import br.com.projeto.beans.Usuario;
+import br.com.projeto.conexao.Conexao;
+
+public class UsuarioDAO {
+	
+	public Usuario getUser(int codigo) {
+		Connection con = Conexao.queroConectar();
+	}
+	
+}
